@@ -1,0 +1,70 @@
+func(f,{cos([x])+1}):
+func(e,{[x]([x]([x]([y])))}):
+func(g,{e(f,[x])}):
+func(h,{e(g,[x])}):
+func(i,{e(h,[x])}):
+
+print_e(f,0) 
+- (  cos(cos(cos(0)+1)+1)+1  ) ,:
+
+print_e(g,0) 
+- (  cos(cos(cos(cos(cos(cos(cos(cos(cos(0)+1)+1)+1)+1)+1)+1)+1)+1)+1  ) ,:
+
+print_e(h,0) 
+- (  cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(0)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1  ) ,:
+
+print_e(i,0) 
+- (  cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(cos(0)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1)+1  ) ,:
+
+print_\n\n:
+
+func(f,{[x]+1}):
+func(e,{[x]([x]([y]))}):
+func(g,{e(f,[x])}):
+func(h,{e(g,[x])}):
+func(i,{e(h,[x])}):
+func(j,{e(i,[x])}):
+func(k,{e(j,[x])}):
+
+print_let(a1,    f(0)                  ) ,:
+print_let(a2,    g(0)                  ) ,:
+print_let(a3,    g(f(0))               ) ,:
+print_let(a4,    h(0)                  ) ,:
+print_let(a5,    h(f(0))               ) ,:
+print_let(a6,    h(g(0))               ) ,:
+print_let(a7,    h(g(f(0)))            ) ,:
+print_let(a8,    i(0)                  ) ,:
+print_let(a9,    i(f(0))               ) ,:
+print_let(a10,   i(g(0))               ) ,:
+print_let(a11,   i(g(f(0)))            ) ,:
+print_let(a12,   i(h(0))               ) ,:
+print_let(a13,   i(h(f(0)))            ) ,:
+print_let(a14,   i(h(g(0)))            ) ,:
+print_let(a15,   i(h(g(f(0))))         ) ,:
+print_let(a16,   j(0)                  ) ,:
+print_let(a17,   j(f(0))               ) ,:
+print_let(a18,   j(g(0))               ) ,:
+print_let(a19,   j(g(f(0)))            ) ,:
+print_let(a20,   j(h(0))               ) ,:
+print_let(a21,   j(h(f(0)))            ) ,:
+print_let(a22,   j(h(g(0)))            ) ,:
+print_let(a23,   j(h(g(f(0))))         ) ,:
+print_let(a24,   j(i(0))               ) ,:
+print_let(a25,   j(i(f(0)))            ) ,:
+print_let(a26,   j(i(g(0)))            ) ,:
+print_let(a27,   j(i(g(f(0))))         ) ,:
+print_let(a28,   j(i(h(0)))            ) ,:
+print_let(a29,   j(i(h(f(0))))         ) ,:
+print_let(a30,   j(i(h(g(0))))         ) ,:
+print_let(a31,   j(i(h(g(f(0)))))      ) ,:
+print_let(a32,   k(0)                  ) ,:
+print_let(a33,   k(f(0))               ) ,:
+print_let(a34,   k(g(0))               ) ,:
+print_let(a35,   k(g(f(0)))            ) ,:
+print_let(a36,   k(h(0))               ) ,:
+print_let(a37,   k(h(f(0)))            ) ,:
+print_let(a38,   k(h(g(0)))            ) ,:
+print_let(a39,   k(h(g(f(0))))         ) ,:
+print_let(a40,   k(i(0))               ) ,:
+
+print_\n

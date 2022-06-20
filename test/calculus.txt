@@ -1,0 +1,36 @@
+func(deriv, {
+  (([x]([y]+[z])) - ([x]([y]-[z]))) / (2*[z])
+}):
+
+func(linapx,{
+  [y] - ([x]([y])) / deriv([x],[y],0.001)
+}):
+
+func(newtonsolve, {
+  sub({
+    let(fxn,[x]):
+    let(ans,[y]):
+    for(<k,1,[z],1>, {
+      let(ans,linapx([fxn],[ans]))
+    }):
+    print_[ans]
+  })
+}):
+
+func(lhopital,{
+  deriv([x],[z],0.001) / deriv([y],[z],0.001)
+}):
+
+func(integral,{
+  sub({
+    let(fxn,[x]):
+    let(tot,0):
+    let(step,[t]):
+    for(<j,[y],[z],[step]>,{
+      let(tot, [tot] + [step] * ([fxn]([j])) )
+    }):
+    print_[tot]
+  })
+}):
+
+print_`calculus.txt':
