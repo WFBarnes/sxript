@@ -103,7 +103,7 @@ Sxript is conveyed as <i>open source free software</i>. Do what thou wilt.
 
 <center>
 <div class="container">
-<a href="README.html" target="_BLANK"> ---> Guide <--- </a>
+<a href="Guide.html" target="_BLANK"> ---> Guide <--- </a>
 </div>
 </center>
 
